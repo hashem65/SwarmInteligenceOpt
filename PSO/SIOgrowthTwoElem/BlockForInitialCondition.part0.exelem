@@ -1,0 +1,617 @@
+ Group name: HeartTubeRegion
+ Shape.  Dimension=3
+ #Scale factor sets= 2
+ c.Hermite*c.Hermite*c.Hermite, #Scale factors=64
+ l.Lagrange*l.Lagrange*l.Lagrange, #Scale factors=8
+ #Nodes=           8
+ #Fields=14
+ 1) Geometry, coordinate, rectangular cartesian, #Components=3
+   x.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   y.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   z.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+ 2) OriginalGeometry, coordinate, rectangular cartesian, #Components=3
+   x.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   y.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   z.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+ 3) Fibre, anatomical, fibre, #Components=3
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=1
+      Value indices:     1
+      Scale factor indices:   72
+     2.  #Values=1
+      Value indices:     1
+      Scale factor indices:   73
+     3.  #Values=1
+      Value indices:     1
+      Scale factor indices:   74
+     4.  #Values=1
+      Value indices:     1
+      Scale factor indices:   75
+     5.  #Values=1
+      Value indices:     1
+      Scale factor indices:   76
+     6.  #Values=1
+      Value indices:     1
+      Scale factor indices:   77
+     7.  #Values=1
+      Value indices:     1
+      Scale factor indices:   78
+     8.  #Values=1
+      Value indices:     1
+      Scale factor indices:   79
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=1
+      Value indices:     1
+      Scale factor indices:   72
+     2.  #Values=1
+      Value indices:     1
+      Scale factor indices:   73
+     3.  #Values=1
+      Value indices:     1
+      Scale factor indices:   74
+     4.  #Values=1
+      Value indices:     1
+      Scale factor indices:   75
+     5.  #Values=1
+      Value indices:     1
+      Scale factor indices:   76
+     6.  #Values=1
+      Value indices:     1
+      Scale factor indices:   77
+     7.  #Values=1
+      Value indices:     1
+      Scale factor indices:   78
+     8.  #Values=1
+      Value indices:     1
+      Scale factor indices:   79
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=1
+      Value indices:     1
+      Scale factor indices:   72
+     2.  #Values=1
+      Value indices:     1
+      Scale factor indices:   73
+     3.  #Values=1
+      Value indices:     1
+      Scale factor indices:   74
+     4.  #Values=1
+      Value indices:     1
+      Scale factor indices:   75
+     5.  #Values=1
+      Value indices:     1
+      Scale factor indices:   76
+     6.  #Values=1
+      Value indices:     1
+      Scale factor indices:   77
+     7.  #Values=1
+      Value indices:     1
+      Scale factor indices:   78
+     8.  #Values=1
+      Value indices:     1
+      Scale factor indices:   79
+ 4) Dependent, field,  rectangular cartesian, #Components=4
+   1.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   2.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   3.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=1
+      Value indices:     1
+      Scale factor indices:   72
+     2.  #Values=1
+      Value indices:     1
+      Scale factor indices:   73
+     3.  #Values=1
+      Value indices:     1
+      Scale factor indices:   74
+     4.  #Values=1
+      Value indices:     1
+      Scale factor indices:   75
+     5.  #Values=1
+      Value indices:     1
+      Scale factor indices:   76
+     6.  #Values=1
+      Value indices:     1
+      Scale factor indices:   77
+     7.  #Values=1
+      Value indices:     1
+      Scale factor indices:   78
+     8.  #Values=1
+      Value indices:     1
+      Scale factor indices:   79
+ 5) del U_del n, field,  rectangular cartesian, #Components=4
+   1.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   2.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   3.   c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    1   2   3   4   5   6   7   8
+     2.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:    9  10  11  12  13  14  15  16
+     3.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   17  18  19  20  21  22  23  24
+     4.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   25  26  27  28  29  30  31  32
+     5.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   33  34  35  36  37  38  39  40
+     6.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   41  42  43  44  45  46  47  48
+     7.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   49  50  51  52  53  54  55  56
+     8.  #Values=8
+      Value indices:     1   2   3   4   5   6   7   8
+      Scale factor indices:   57  58  59  60  61  62  63  64
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, standard node based.
+     #Nodes= 8
+     1.  #Values=1
+      Value indices:     1
+      Scale factor indices:   72
+     2.  #Values=1
+      Value indices:     1
+      Scale factor indices:   73
+     3.  #Values=1
+      Value indices:     1
+      Scale factor indices:   74
+     4.  #Values=1
+      Value indices:     1
+      Scale factor indices:   75
+     5.  #Values=1
+      Value indices:     1
+      Scale factor indices:   76
+     6.  #Values=1
+      Value indices:     1
+      Scale factor indices:   77
+     7.  #Values=1
+      Value indices:     1
+      Scale factor indices:   78
+     8.  #Values=1
+      Value indices:     1
+      Scale factor indices:   79
+ 6) Strain, field,  real, #Components=6
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   5.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   6.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 7) Stress, field,  real, #Components=6
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   5.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   6.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 8) Growth, field,  real, #Components=3
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 9) GrowthModelMap, field,  rectangular cartesian, #Components=1
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 10) GrowthParameters, field,  rectangular cartesian, #Components=3
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 11) GrowthState, field,  rectangular cartesian, #Components=3
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 12) ConstitutiveModelMap, field,  rectangular cartesian, #Components=1
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 13) ConstitutiveParameters, field,  rectangular cartesian, #Components=6
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   5.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   6.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ 14) ConstitutiveIntermediate, field,  rectangular cartesian, #Components=6
+   1.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   2.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   3.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   4.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   5.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+   6.   l.Lagrange*l.Lagrange*l.Lagrange, no modify, grid based.
+     #xi1=2, #xi2=2, #xi3=2
+ Element:            1 0 0
+   Values:
+     9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01
+     1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02
+     -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03
+     9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01
+     3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03
+     9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01
+     7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01
+     -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01
+     5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02
+     7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01
+     -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02
+     7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01
+     1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00   1.0068200000000007E+00
+     1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00   1.0277200000000009E+00
+     1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03   6.1999999999999998E-03
+     2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02   2.5200000000000000E-02
+     2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01   9.9648170915570411E-01
+     1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02   1.0807681998044556E-02
+     -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03   -2.4295521541069956E-03
+     9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01   9.9616751520724933E-01
+     3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03   3.3816996156783297E-03
+     9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01   9.9624526647665768E-01
+     7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01   7.5817906760413763E+01
+     -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01   -2.5938436795306935E-01
+     5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02   5.8309251698567890E-02
+     7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01   7.5825447415176683E+01
+     -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02   -8.1160790776279912E-02
+     7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01   7.5823581384710877E+01
+   Nodes:
+           1           2           3           4           7           8           9          10
+   Scale factors:
+     1.0000000000000000E+00   1.3260976624556386E+00   1.3691276549413218E+00   1.8155969828210572E+00   1.2244673166037103E+00   1.6237632463015086E+00   1.6764520657339310E+00   2.2231391655886927E+00   1.0000000000000000E+00   1.3260976624556386E+00   1.3691276436973949E+00   1.8155969679105119E+00   1.2244673161647126E+00   1.6237632457193549E+00   1.6764520513650660E+00   2.2231391465341743E+00   1.0000000000000000E+00   1.3786735952480484E+00   1.5059166325526914E+00   2.0761674979452533E+00   1.3285631691466353E+00   1.8316549609215329E+00   2.0007053738148328E+00   2.7583196707493864E+00   1.0000000000000000E+00   1.3786735952480484E+00   1.5059166362717911E+00   2.0761675030726781E+00   1.3285631204570716E+00   1.8316548937945170E+00   2.0007053054334678E+00   2.7583195764738040E+00   1.0000000000000000E+00   3.2323032813405503E+00   1.3546290882235767E+00   4.3785720468644254E+00   1.2244673166037103E+00   3.9578497253524314E+00   1.6586990446504537E+00   5.3614183647800981E+00   1.0000000000000000E+00   3.2323032813405503E+00   1.3546290845696782E+00   4.3785720350539172E+00   1.2244673161647126E+00   3.9578497239334576E+00   1.6586990395816954E+00   5.3614183483963336E+00   1.0000000000000000E+00   3.4525737502060823E+00   1.5071486738295272E+00   5.2035419489217345E+00   1.3285631691466353E+00   4.5869623232862766E+00   2.0023422184781055E+00   6.9132341824469190E+00   1.0000000000000000E+00   3.4525737502060823E+00   1.5071486402329906E+00   5.2035418329272138E+00   1.3285631204570716E+00   4.5869621551819666E+00   2.0023421004605741E+00   6.9132337749826887E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+ Element:            2 0 0
+   Values:
+     9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01
+     4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03
+     -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03
+     9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01
+     3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03
+     1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00
+     7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01
+     -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01
+     1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01
+     7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01
+     -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02
+     7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01
+     1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00   1.0200199999999993E+00
+     1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00   1.0497200000000009E+00
+     1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00   1.0002419999999996E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02   1.8200000000000001E-02
+     4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02   4.5199999999999997E-02
+     2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04   2.2000000000000001E-04
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00
+     9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01   9.9121507775570106E-01
+     4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03   4.6743744324701797E-03
+     -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03   -4.6267826392357202E-03
+     9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01   9.8371445754055353E-01
+     3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03   3.2848531299424777E-03
+     1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00   1.0006110107909696E+00
+     7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01   7.5623811239956552E+01
+     -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01   -1.1218498637928431E-01
+     1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01   1.1104278334165729E-01
+     7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01   7.5803826125120096E+01
+     -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02   -7.8836475118619465E-02
+     7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01   7.5398308847110115E+01
+   Nodes:
+           3           4           5           6           9          10          11          12
+   Scale factors:
+     1.0000000000000000E+00   1.3786735952480484E+00   1.5059166325526914E+00   2.0761674979452533E+00   1.3285631691466353E+00   1.8316549609215329E+00   2.0007053738148328E+00   2.7583196707493864E+00   1.0000000000000000E+00   1.3786735952480484E+00   1.5059166362717911E+00   2.0761675030726781E+00   1.3285631204570716E+00   1.8316548937945170E+00   2.0007053054334678E+00   2.7583195764738040E+00   1.0000000000000000E+00   1.4667433766864737E+00   1.6427056101640609E+00   2.4094275735538488E+00   1.2837080057631050E+00   1.8828702150524359E+00   2.1087543428795712E+00   3.0930014654774483E+00   1.0000000000000000E+00   1.4667433766864737E+00   1.6427056288461872E+00   2.4094276009557336E+00   1.2837079598990033E+00   1.8828701477815686E+00   2.1087542915207482E+00   3.0930013901472346E+00   1.0000000000000000E+00   3.4525737502060823E+00   1.5071486738295272E+00   5.2035419489217345E+00   1.3285631691466353E+00   4.5869623232862766E+00   2.0023422184781055E+00   6.9132341824469190E+00   1.0000000000000000E+00   3.4525737502060823E+00   1.5071486402329906E+00   5.2035418329272138E+00   1.3285631204570716E+00   4.5869621551819666E+00   2.0023421004605741E+00   6.9132337749826887E+00   1.0000000000000000E+00   3.9365434883806421E+00   1.6596682594354777E+00   6.5333562795527635E+00   1.2837080057631050E+00   5.0533723910688506E+00   2.1305294315482404E+00   8.3869217605645368E+00   1.0000000000000000E+00   3.9365434883806421E+00   1.6596681958963031E+00   6.5333560294280399E+00   1.2837079598990033E+00   5.0533722105228200E+00   2.1305292738633028E+00   8.3869211398309211E+00
+     1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00   1.0000000000000000E+00

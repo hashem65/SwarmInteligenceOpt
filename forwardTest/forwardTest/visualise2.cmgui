@@ -1,0 +1,12 @@
+#Read in solution
+gfx read node HeartTubeGrowth.part0.exnode time 0 
+
+gfx read node HeartTubeGrowth_10.0.part0.exnode time 10
+
+gfx read element HeartTubeGrowth.part0.exelem
+
+#Update lines and faces
+gfx define faces egroup "HeartTubeRegion"
+
+gfx cre time_editor
+gfx edit scene

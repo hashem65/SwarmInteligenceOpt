@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="190" key="DIALOG_Y_ORIGIN"/>
+		<item value="376" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="numberOfOptVariables" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="opt_prob"/>
+			<item value="num_dimensions"/>
+			<item value="err_i"/>
+			<item value="err_best_i"/>
+			<item value="velocity_i"/>
+			<item value="position_i"/>
+			<item value="pos_best_i"/>
+			<item value="pos_best"/>
+			<item value="total"/>
+			<item value="maxiter"/>
+			<item value="num_par"/>
+			<item value="func1"/>
+			<item value="f6"/>
+			<item value="errorf6"/>
+			<item value="costFunc"/>
+		</list>
+		<list key="replacehistory">
+			<item value="numberOfOptVariables"/>
+			<item value="errorIndividual"/>
+			<item value="bestErrorIndividual"/>
+			<item value="velocityIndividual"/>
+			<item value="positionIndividual"/>
+			<item value="positionBestIndividual"/>
+			<item value="totalObjective"/>
+			<item value="maxIterationNumber"/>
+			<item value="numOfPar"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="318" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="434" key="DIALOG_HEIGHT"/>
+		<item value="397" key="DIALOG_Y_ORIGIN"/>
+		<item value="35" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

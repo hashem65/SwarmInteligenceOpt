@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+SIOgrowthOneElem.SIOoneElem|/home/hashem/workspace/PSO/SIOgrowthOneElem/SIOoneElem.py
+SIOgrowthOneElem.__init__|/home/hashem/workspace/PSO/SIOgrowthOneElem/__init__.py
+SIOgrowthTwoElem.__init__|/home/hashem/workspace/PSO/SIOgrowthTwoElem/__init__.py
+SIOgrowthTwoElem.twoBlocksDifferentRates|/home/hashem/workspace/PSO/SIOgrowthTwoElem/twoBlocksDifferentRates.py
+btBytes.PSImplementation|/home/hashem/workspace/PSO/btBytes/PSImplementation.py
+btBytes.__init__|/home/hashem/workspace/PSO/btBytes/__init__.py
+first-pso.__init__|/home/hashem/workspace/PSO/first-pso/__init__.py

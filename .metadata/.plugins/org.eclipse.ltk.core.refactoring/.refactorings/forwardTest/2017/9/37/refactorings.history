@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;forwardTest/forwardTest/SingleBlock-testingResults.py&apos; to &apos;TwoBlocksForwardTest.py&apos;" description="Rename resource &apos;SingleBlock-testingResults.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="forwardTest/SingleBlock-testingResults.py" name="TwoBlocksForwardTest.py" stamp="1505450299669" updateReferences="true"/>
+</session>

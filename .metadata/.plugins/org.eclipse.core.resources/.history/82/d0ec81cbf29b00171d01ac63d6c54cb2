@@ -1,0 +1,133 @@
+#   Author:  by Hashem Yousefi  
+#   Swarm Intelligence Optimization has become very useful in recent years  
+#   Particle swarm optimization is also called as (PSO), is a technique to
+#   solve any type of optimization problem ... Here, we are using this technique  
+#   to find out a numerical optimization problem dealing with heart growth modelling 
+#   the target is to minimise the objective function calculated from the model comparssion
+#
+#   defining the objective to become minimised we need to add the following lines to --- 
+#   calculate the distance between the coordinates .... 
+#
+#   OBJECTIVE  FUNCTION =   A(coords)  +   B(Lengths)   +  C(Areas)   
+#   
+#   the third part is not calculated yet ... 
+#   for now we have considered the coords and the lengths 
+
+import time
+import math
+import random
+#from SIOgrowthOneElem.SIOoneElem import findObjective
+from __future__ import division
+
+start = time.time() 
+
+
+# the onjective function that we wanted to minimise ... 
+def findObjective(x):
+    totalObjective=0
+    for i in range(len(x)):
+        totalObjective+=x[i]**2 + 14*x[i]
+
+    return totalObjective
+
+# defining a class for the Particle 
+class Particle:
+    def __init__(self,x0):
+        self.positionIndividual=[]          # particle position
+        self.velocityIndividual=[]          # particle velocity
+        self.positionBestIndividual=[]          # best position individual
+        self.bestErrorIndividual=-1          # best error individual
+        self.errorIndividual=-1               # error individual
+
+        for i in range(0,numberOfOptVariables):
+            self.velocityIndividual.append(random.uniform(-1,1))
+            self.positionIndividual.append(x0[i])
+
+    # evaluate current fitness
+    def evaluate(self,costFunc):
+        self.errorIndividual=costFunc(self.positionIndividual)
+
+        # check to see if the current position is an individual best
+        if self.errorIndividual < self.bestErrorIndividual or self.bestErrorIndividual==-1:
+            self.positionBestIndividual=self.positionIndividual
+            self.bestErrorIndividual=self.errorIndividual
+
+    # update new particle velocity
+    def update_velocity(self,pos_best_g):
+        w=0.9   # constant inertia weight (how much to weigh the previous velocity)
+        c1=1        # cognative constant
+        c2=2        # social constant
+
+        for i in range(0,numberOfOptVariables):
+            r1=random.random()
+            r2=random.random()
+
+            vel_cognitive=c1*r1*(self.positionBestIndividual[i]-self.positionIndividual[i])
+            vel_social=c2*r2*(pos_best_g[i]-self.positionIndividual[i])
+            self.velocityIndividual[i]=w*self.velocityIndividual[i]+vel_cognitive+vel_social
+
+    # update the particle position based off new velocity updates
+    def update_position(self,bounds):
+        for i in range(0,numberOfOptVariables):
+            self.positionIndividual[i]=self.positionIndividual[i]+self.velocityIndividual[i]
+
+            # adjust maximum position if necessary
+            if self.positionIndividual[i]>bounds[i][1]:
+                self.positionIndividual[i]=bounds[i][1]
+
+            # adjust minimum position if neseccary
+            if self.positionIndividual[i] < bounds[i][0]:
+                self.positionIndividual[i]=bounds[i][0]
+                
+class PSO():
+    def __init__(self,costFunc,x0,bounds,numOfParticles,maxIterationNumber):
+        global numberOfOptVariables
+
+        numberOfOptVariables=len(x0)
+        err_best_g=-1                   # best error for group
+        pos_best_g=[]                   # best position for group
+
+        # establish the swarm
+        swarm=[]
+        for i in range(0,numOfParticles):
+            swarm.append(Particle(x0))
+
+        # begin optimization loop
+        i=0
+        while i < maxIterationNumber:
+            #print i,err_best_g
+            # cycle through particles in swarm and evaluate fitness
+            for j in range(0,numOfParticles):
+                swarm[j].evaluate(costFunc)
+
+                # determine if current particle is the best (globally)
+                if swarm[j].errorIndividual < err_best_g or err_best_g == -1:
+                    pos_best_g=list(swarm[j].positionIndividual)
+                    err_best_g=float(swarm[j].errorIndividual)
+
+            # cycle through swarm and update velocities and position
+            for j in range(0,numOfParticles):
+                swarm[j].update_velocity(pos_best_g)
+                swarm[j].update_position(bounds)
+            i+=1
+
+        # print final results
+        print 'FINAL:'
+        print pos_best_g
+        print err_best_g
+
+if __name__ == "__PSO__":
+    main()
+
+#--- RUN ----------------------------------------------------------------------+
+
+initial=[0.002,0.012,0.0002]               # initial starting location [x1,x2...]
+bounds= [(2e-4,2e-2),(5e-3,5e-2),(1e-5,1e-3)] # input bounds [(x1_min,x1_max),(x2_min,x2_max)...]
+PSO(findObjective,initial,bounds,numOfParticles=25,maxIterationNumber=120)
+
+
+end = time.time()
+print "the time tkaen for the code  = ", end - start  
+
+
+#--- END ----------------------------------------------------------------------+

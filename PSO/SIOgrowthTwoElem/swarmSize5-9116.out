@@ -1,0 +1,133 @@
+                                     ======================
+                                        ALPSO 1.1 (Serial)
+                                     ======================
+
+Parameters:
+-------------------------------------------------------------------------------------------------
+Swarmsize           :       40    MaxOuterIters     :      200    Seed:       1505756463.07579994
+Cognitive Parameter :    2.000    MaxInnerIters     :        6    Scaling            :          1
+Social Parameter    :    1.000    MinInnerIters     :        6    Stopping Criteria  :          1
+Initial Weight      :    0.990    DynInnerIters     :        0    Number of Failures :         15
+Final Weight        :    0.550    StoppingIters     :        5    Number of Successes:          5
+
+Absolute Tolerance  : 1.00e-02    Number Initial Pos:        0    Neighbourhood Model:      gbest
+Relative Tolerance  : 1.00e-02    Initial Velocity  :        1    Neighbourhood Size :         40
+Inequality Tolerance: 1.00e-03    Maximum Velocity  :        2    Selfless           :          1
+Equality Tolerance  : 1.00e-03    Craziness Velocity: 1.00e-04    Fileout            :          1
+Global Distance     : 1.00e-01    Initial Penalty   :     1.00    File Name          :  ALPSO.out
+-------------------------------------------------------------------------------------------------
+
+
+================================================================================
+
+NUMBER OF ITERATIONS: 1
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 280
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.253530187338136
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.005030990461771958		P(1) = 0.01364596612307489		P(2) = 0.0002566698533343342	
+	P(3) = 0.0173709488352075		P(4) = 0.03752457803279553		P(5) = 0.000438391408153951	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 2
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 520
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.1508002116807392
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.005249407371495816		P(1) = 0.013501667321349		P(2) = 1.000000000000003e-05	
+	P(3) = 0.0157971627796924		P(4) = 0.03754144211303628		P(5) = 0.0004572892939188824	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 3
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 760
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.1508002116807392
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.005249407371495816		P(1) = 0.013501667321349		P(2) = 1.000000000000003e-05	
+	P(3) = 0.0157971627796924		P(4) = 0.03754144211303628		P(5) = 0.0004572892939188824	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 4
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 1000
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.1530176078229498
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.004942143113450072		P(1) = 0.014134523574858		P(2) = 1.000000000000003e-05	
+	P(3) = 0.01595432501006715		P(4) = 0.03722920490847581		P(5) = 0.0004028673186374184	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 5
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 1240
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.1836170783742172
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.00494385072752778		P(1) = 0.01386353253548074		P(2) = 1.000000000000003e-05	
+	P(3) = 0.0158571587176659		P(4) = 0.03722044901014736		P(5) = 0.0004522468935714765	
+
+================================================================================
+
+================================================================================
+
+NUMBER OF ITERATIONS: 6
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 1480
+
+OBJECTIVE FUNCTION VALUE:
+	F = 0.1531403503993005
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.004973381965876171		P(1) = 0.01398742788171394		P(2) = 1.000000000000003e-05	
+	P(3) = 0.01586042132533868		P(4) = 0.03725152105896302		P(5) = 0.0004355731110828622	
+
+================================================================================
