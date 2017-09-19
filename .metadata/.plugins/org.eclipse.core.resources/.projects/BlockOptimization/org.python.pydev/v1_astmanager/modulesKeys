@@ -1,12 +1,6 @@
 MODULES_MANAGER_V2
-oneBlock.SingleBlock|/home/hashem/workspace/BlockOptimization/oneBlock/SingleBlock.py
-oneBlock.__init__|/home/hashem/workspace/BlockOptimization/oneBlock/__init__.py
 oneElem.SingleBlock|/home/hashem/workspace/BlockOptimization/oneElem/SingleBlock.py
 oneElem.__init__|/home/hashem/workspace/BlockOptimization/oneElem/__init__.py
-twoBlockFixedRates.__init__|/home/hashem/workspace/BlockOptimization/twoBlockFixedRates/__init__.py
-twoBlockFixedRates.twoBlocks|/home/hashem/workspace/BlockOptimization/twoBlockFixedRates/twoBlocks.py
-twoBlockedDifferentRates.__init__|/home/hashem/workspace/BlockOptimization/twoBlockedDifferentRates/__init__.py
-twoBlockedDifferentRates.twoBlocksDifferentRates|/home/hashem/workspace/BlockOptimization/twoBlockedDifferentRates/twoBlocksDifferentRates.py
 twoElem.__init__|/home/hashem/workspace/BlockOptimization/twoElem/__init__.py
 twoElem.twoBlocks|/home/hashem/workspace/BlockOptimization/twoElem/twoBlocks.py
 twoElemRates.__init__|/home/hashem/workspace/BlockOptimization/twoElemRates/__init__.py

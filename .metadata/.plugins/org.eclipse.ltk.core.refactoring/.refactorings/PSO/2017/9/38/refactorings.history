@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PSO/SIOgrowthTwoElem/ALPSO_print.out&apos; to &apos;swarmSize5-3859.out&apos;" description="Rename resource &apos;ALPSO_print.out&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="SIOgrowthTwoElem/ALPSO_print.out" name="swarmSize5-3859.out" stamp="1505808004031" updateReferences="true"/>
+</session>

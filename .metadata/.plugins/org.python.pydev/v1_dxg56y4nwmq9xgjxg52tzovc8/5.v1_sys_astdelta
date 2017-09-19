@@ -1,1 +1,1 @@
-INSnumpy.linalg.__init__
+INSnumpy.linalg.lapack_lite

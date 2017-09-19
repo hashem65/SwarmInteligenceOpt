@@ -1,0 +1,40 @@
+                                     ======================
+                                        ALPSO 1.1 (Serial)
+                                     ======================
+
+Parameters:
+-------------------------------------------------------------------------------------------------
+Swarmsize           :        5    MaxOuterIters     :      200    Seed:       1505860130.92368197
+Cognitive Parameter :    2.000    MaxInnerIters     :        6    Scaling            :          1
+Social Parameter    :    1.000    MinInnerIters     :        6    Stopping Criteria  :          1
+Initial Weight      :    0.990    DynInnerIters     :        0    Number of Failures :         15
+Final Weight        :    0.550    StoppingIters     :        5    Number of Successes:          5
+
+Absolute Tolerance  : 1.00e-02    Number Initial Pos:        0    Neighbourhood Model:      gbest
+Relative Tolerance  : 1.00e-02    Initial Velocity  :        1    Neighbourhood Size :         40
+Inequality Tolerance: 1.00e-03    Maximum Velocity  :        2    Selfless           :          1
+Equality Tolerance  : 1.00e-03    Craziness Velocity: 1.00e-04    Fileout            :          1
+Global Distance     : 1.00e-01    Initial Penalty   :     1.00    File Name          :  ALPSO.out
+-------------------------------------------------------------------------------------------------
+
+
+================================================================================
+
+NUMBER OF ITERATIONS: 1
+
+NUMBER OF OBJECTIVE FUNCTION EVALUATIONS: 35
+
+OBJECTIVE FUNCTION VALUE:
+	F = 4.72390795290832
+
+LAGRANGIAN MULTIPLIERS VALUES:
+
+PENALTY FACTOR:
+
+BEST POSITION:
+	P(0) = 0.001999999999999998		P(1) = 0.03348750430888655		P(2) = 0.008268680149918646	
+	P(3) = 0.002000000000000002		P(4) = 0.02006954715315754		P(5) = 0.009894167980885753	
+	P(6) = 0.03093906823328721		P(7) = 0.009387942152165402		P(8) = 0.0294555006339251	
+	P(9) = 0.02864491544068238		P(10) = 0.04592157180249282		P(11) = 0.03247464587344946	
+
+================================================================================
