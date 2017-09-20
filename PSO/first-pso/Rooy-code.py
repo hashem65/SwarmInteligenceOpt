@@ -1,4 +1,4 @@
-#   Author:  by Hashem Yousefi  
+#   Author:  by Nathan Rooy 
 #   Swarm Intelligence Optimization has become very useful in recent years  
 #   Particle swarm optimization is also called as (PSO), is a technique to
 #   solve any type of optimization problem ... Here, we are using this technique  
