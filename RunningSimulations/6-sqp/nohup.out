@@ -1,0 +1,156 @@
+144 64
+uri: "simplegrowth.cellml"
+Getting absolute URL for: simplegrowth.cellml
+Relative ----> absolute
+C uri = "/hpc_htom/hyou267/runningCode/increased-timesteps/6-sqp/simplegrowth.cellml"
+Creating CellMLModelDefinition from the URL: /hpc_htom/hyou267/runningCode/increased-timesteps/6-sqp/simplegrowth.cellml
+whoo hoo!
+Model is correctly constrained
+Compile command: "gcc -fPIC -O3 -shared -x c -o ./tmp.cellml2code.gk4fld/cellml2code.vVYXV6.so tmp.cellml2code.gk4fld/cellml2code.vVYXV6"
+getting index of variable: 'Main/lambda1'
+getting index of variable: 'Main/lambda1'
+getting index of variable: 'Main/lambda2'
+getting index of variable: 'Main/lambda2'
+getting index of variable: 'Main/lambda3'
+getting index of variable: 'Main/lambda3'
+uri: "mooneyrivlin.cellml"
+Getting absolute URL for: mooneyrivlin.cellml
+Relative ----> absolute
+C uri = "/hpc_htom/hyou267/runningCode/increased-timesteps/6-sqp/mooneyrivlin.cellml"
+Creating CellMLModelDefinition from the URL: /hpc_htom/hyou267/runningCode/increased-timesteps/6-sqp/mooneyrivlin.cellml
+whoo hoo!
+Model is correctly constrained
+Compile command: "gcc -fPIC -O3 -shared -x c -o ./tmp.cellml2code.zOslQ0/cellml2code.lv2TKU.so tmp.cellml2code.zOslQ0/cellml2code.lv2TKU"
+getting index of variable: 'equations/E11'
+getting index of variable: 'equations/E12'
+getting index of variable: 'equations/E13'
+getting index of variable: 'equations/E22'
+getting index of variable: 'equations/E23'
+getting index of variable: 'equations/E33'
+getting index of variable: 'equations/Tdev11'
+getting index of variable: 'equations/Tdev11'
+getting index of variable: 'equations/Tdev12'
+getting index of variable: 'equations/Tdev12'
+getting index of variable: 'equations/Tdev13'
+getting index of variable: 'equations/Tdev13'
+getting index of variable: 'equations/Tdev22'
+getting index of variable: 'equations/Tdev22'
+getting index of variable: 'equations/Tdev23'
+getting index of variable: 'equations/Tdev23'
+getting index of variable: 'equations/Tdev33'
+getting index of variable: 'equations/Tdev33'
+
+Optimization Problem -- GrowthOptimise
+================================================================================
+
+        Objective Function: findObjective
+
+    Objectives:
+        Name        Value        Optimum
+	     f               0             0
+
+	Variables (c - continuous, i - integer, d - discrete):
+        Name    Type       Value       Lower Bound  Upper Bound
+	 fibreRate1    c	      0.099000       0.00e+00     9.90e-02 
+	 sheetRate1    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate2    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate2    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate3    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate3    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate4    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate4    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate5    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate5    c	      0.024694       0.00e+00     9.90e-02 
+	 fibreRate6    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate6    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate7    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate7    c	      0.099000       0.00e+00     9.90e-02 
+	 fibreRate8    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate8    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate9    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate9    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate10    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate10    c	      0.099000       0.00e+00     9.90e-02 
+	 fibreRate11    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate11    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate12    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate12    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate13    c	      0.099000       0.00e+00     9.90e-02 
+	 sheetRate13    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate14    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate14    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate15    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate15    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate16    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate16    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate17    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate17    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate18    c	      0.058600       0.00e+00     9.90e-02 
+	 sheetRate18    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate19    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate19    c	      0.005139       0.00e+00     9.90e-02 
+	 fibreRate20    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate20    c	      0.099000       0.00e+00     9.90e-02 
+	 fibreRate21    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate21    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate22    c	      0.099000       0.00e+00     9.90e-02 
+	 sheetRate22    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate23    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate23    c	      0.036400       0.00e+00     9.90e-02 
+	 fibreRate24    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate24    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate25    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate25    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate26    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate26    c	      0.087293       0.00e+00     9.90e-02 
+	 fibreRate27    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate27    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate28    c	      0.099000       0.00e+00     9.90e-02 
+	 sheetRate28    c	      0.027800       0.00e+00     9.90e-02 
+	 fibreRate29    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate29    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate30    c	      0.000320       0.00e+00     9.90e-02 
+	 sheetRate30    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate31    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate31    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate32    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate32    c	      0.051599       0.00e+00     9.90e-02 
+	 fibreRate33    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate33    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate34    c	      0.010893       0.00e+00     9.90e-02 
+	 sheetRate34    c	      0.036100       0.00e+00     9.90e-02 
+	 fibreRate35    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate35    c	      0.078400       0.00e+00     9.90e-02 
+	 fibreRate36    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate36    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate37    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate37    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate38    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate38    c	      0.055566       0.00e+00     9.90e-02 
+	 fibreRate39    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate39    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate40    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate40    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate41    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate41    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate42    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate42    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate43    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate43    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate44    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate44    c	      0.099000       0.00e+00     9.90e-02 
+	 fibreRate45    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate45    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate46    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate46    c	      0.000052       0.00e+00     9.90e-02 
+	 fibreRate47    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate47    c	      0.000000       0.00e+00     9.90e-02 
+	 fibreRate48    c	      0.000000       0.00e+00     9.90e-02 
+	 sheetRate48    c	      0.000000       0.00e+00     9.90e-02 
+
+end.py:787: RuntimeWarning: divide by zero encountered in double_scalars
+  growthTensor[2*i,0] = optmin[3*i]/timesteps
+end.py:788: RuntimeWarning: divide by zero encountered in double_scalars
+  growthTensor[2*i,1] = optmin[3*i+1]/timesteps
+end.py:789: RuntimeWarning: divide by zero encountered in double_scalars
+  growthTensor[2*i,2] = optmin[3*i+2]/timesteps
