@@ -1,0 +1,247 @@
+144 64
+uri: "simplegrowth.cellml"
+Getting absolute URL for: simplegrowth.cellml
+Relative ----> absolute
+C uri = "/hpc_htom/hyou267/runningCode/increased-timesteps/13/simplegrowth.cellml"
+Creating CellMLModelDefinition from the URL: /hpc_htom/hyou267/runningCode/increased-timesteps/13/simplegrowth.cellml
+whoo hoo!
+Model is correctly constrained
+Compile command: "gcc -fPIC -O3 -shared -x c -o ./tmp.cellml2code.vxvrTU/cellml2code.ki0tbb.so tmp.cellml2code.vxvrTU/cellml2code.ki0tbb"
+getting index of variable: 'Main/lambda1'
+getting index of variable: 'Main/lambda1'
+getting index of variable: 'Main/lambda2'
+getting index of variable: 'Main/lambda2'
+getting index of variable: 'Main/lambda3'
+getting index of variable: 'Main/lambda3'
+uri: "mooneyrivlin.cellml"
+Getting absolute URL for: mooneyrivlin.cellml
+Relative ----> absolute
+C uri = "/hpc_htom/hyou267/runningCode/increased-timesteps/13/mooneyrivlin.cellml"
+Creating CellMLModelDefinition from the URL: /hpc_htom/hyou267/runningCode/increased-timesteps/13/mooneyrivlin.cellml
+whoo hoo!
+Model is correctly constrained
+Compile command: "gcc -fPIC -O3 -shared -x c -o ./tmp.cellml2code.Hp8DHr/cellml2code.WCAXdI.so tmp.cellml2code.Hp8DHr/cellml2code.WCAXdI"
+getting index of variable: 'equations/E11'
+getting index of variable: 'equations/E12'
+getting index of variable: 'equations/E13'
+getting index of variable: 'equations/E22'
+getting index of variable: 'equations/E23'
+getting index of variable: 'equations/E33'
+getting index of variable: 'equations/Tdev11'
+getting index of variable: 'equations/Tdev11'
+getting index of variable: 'equations/Tdev12'
+getting index of variable: 'equations/Tdev12'
+getting index of variable: 'equations/Tdev13'
+getting index of variable: 'equations/Tdev13'
+getting index of variable: 'equations/Tdev22'
+getting index of variable: 'equations/Tdev22'
+getting index of variable: 'equations/Tdev23'
+getting index of variable: 'equations/Tdev23'
+getting index of variable: 'equations/Tdev33'
+getting index of variable: 'equations/Tdev33'
+
+Optimization Problem -- GrowthOptimise
+================================================================================
+
+        Objective Function: findObjective
+
+    Objectives:
+        Name        Value        Optimum
+	     f               0             0
+
+	Variables (c - continuous, i - integer, d - discrete):
+        Name    Type       Value       Lower Bound  Upper Bound
+	 fibreRate1    c	      0.014230       0.00e+00     9.90e-02 
+	 sheetRate1    c	      0.004390       0.00e+00     9.90e-02 
+	 fibreRate2    c	      0.006109       0.00e+00     9.90e-02 
+	 sheetRate2    c	      0.002545       0.00e+00     9.90e-02 
+	 fibreRate3    c	      0.002842       0.00e+00     9.90e-02 
+	 sheetRate3    c	      0.002800       0.00e+00     9.90e-02 
+	 fibreRate4    c	      0.013768       0.00e+00     9.90e-02 
+	 sheetRate4    c	      0.003685       0.00e+00     9.90e-02 
+	 fibreRate5    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate5    c	      0.010257       0.00e+00     9.90e-02 
+	 fibreRate6    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate6    c	      0.002298       0.00e+00     9.90e-02 
+	 fibreRate7    c	      0.014230       0.00e+00     9.90e-02 
+	 sheetRate7    c	      0.004390       0.00e+00     9.90e-02 
+	 fibreRate8    c	      0.006109       0.00e+00     9.90e-02 
+	 sheetRate8    c	      0.002545       0.00e+00     9.90e-02 
+	 fibreRate9    c	      0.002842       0.00e+00     9.90e-02 
+	 sheetRate9    c	      0.002800       0.00e+00     9.90e-02 
+	 fibreRate10    c	      0.013768       0.00e+00     9.90e-02 
+	 sheetRate10    c	      0.003685       0.00e+00     9.90e-02 
+	 fibreRate11    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate11    c	      0.010257       0.00e+00     9.90e-02 
+	 fibreRate12    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate12    c	      0.002298       0.00e+00     9.90e-02 
+	 fibreRate13    c	      0.014230       0.00e+00     9.90e-02 
+	 sheetRate13    c	      0.004390       0.00e+00     9.90e-02 
+	 fibreRate14    c	      0.006109       0.00e+00     9.90e-02 
+	 sheetRate14    c	      0.002545       0.00e+00     9.90e-02 
+	 fibreRate15    c	      0.002842       0.00e+00     9.90e-02 
+	 sheetRate15    c	      0.002800       0.00e+00     9.90e-02 
+	 fibreRate16    c	      0.013768       0.00e+00     9.90e-02 
+	 sheetRate16    c	      0.003685       0.00e+00     9.90e-02 
+	 fibreRate17    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate17    c	      0.010257       0.00e+00     9.90e-02 
+	 fibreRate18    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate18    c	      0.002298       0.00e+00     9.90e-02 
+	 fibreRate19    c	      0.014230       0.00e+00     9.90e-02 
+	 sheetRate19    c	      0.004390       0.00e+00     9.90e-02 
+	 fibreRate20    c	      0.006109       0.00e+00     9.90e-02 
+	 sheetRate20    c	      0.002545       0.00e+00     9.90e-02 
+	 fibreRate21    c	      0.002842       0.00e+00     9.90e-02 
+	 sheetRate21    c	      0.002800       0.00e+00     9.90e-02 
+	 fibreRate22    c	      0.013768       0.00e+00     9.90e-02 
+	 sheetRate22    c	      0.003685       0.00e+00     9.90e-02 
+	 fibreRate23    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate23    c	      0.010257       0.00e+00     9.90e-02 
+	 fibreRate24    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate24    c	      0.002670       0.00e+00     9.90e-02 
+	 fibreRate25    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate25    c	      0.010257       0.00e+00     9.90e-02 
+	 fibreRate26    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate26    c	      0.002298       0.00e+00     9.90e-02 
+	 fibreRate27    c	      0.014230       0.00e+00     9.90e-02 
+	 sheetRate27    c	      0.004390       0.00e+00     9.90e-02 
+	 fibreRate28    c	      0.006109       0.00e+00     9.90e-02 
+	 sheetRate28    c	      0.002545       0.00e+00     9.90e-02 
+	 fibreRate29    c	      0.002842       0.00e+00     9.90e-02 
+	 sheetRate29    c	      0.002800       0.00e+00     9.90e-02 
+	 fibreRate30    c	      0.013768       0.00e+00     9.90e-02 
+	 sheetRate30    c	      0.003685       0.00e+00     9.90e-02 
+	 fibreRate31    c	      0.000012       0.00e+00     9.90e-02 
+	 sheetRate31    c	      0.010690       0.00e+00     9.90e-02 
+	 fibreRate32    c	      0.000017       0.00e+00     9.90e-02 
+	 sheetRate32    c	      0.002267       0.00e+00     9.90e-02 
+
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  0  of  3
+>>ERROR:  1: Nonlinear line search solver did not converge. Exit due to PETSc diverged maximum iterations.
+>>  SOLVER_NONLINEAR_DIVERGENCE_EXIT
+>>    FiniteElasticity_PostSolve
+>>      ELASTICITY_POST_SOLVE
+>>        PROBLEM_SOLVER_POST_SOLVE
+>>          PROBLEM_SOLVER_SOLVE
+>>            PROBLEM_CONTROL_LOOP_SOLVE
+>>              PROBLEM_SOLVE
+>>                cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+>>ERROR:  1: Nonlinear line search solver did not converge. PETSc diverged line search.
+>>  SOLVER_NEWTON_LINESEARCH_SOLVE
+>>    SOLVER_NEWTON_SOLVE
+>>      SOLVER_NONLINEAR_SOLVE
+>>        SOLVER_SOLVE
+>>          Problem_SolverEquationsQuasistaticNonlinearSolve
+>>            PROBLEM_SOLVER_EQUATIONS_SOLVE
+>>              PROBLEM_SOLVER_SOLVE
+>>                PROBLEM_CONTROL_LOOP_SOLVE
+>>                  PROBLEM_SOLVE
+>>                    cmfe_Problem_SolveObj
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  2  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  1  of  3
+Exciting due to exception  
+At time step  2  of  3
